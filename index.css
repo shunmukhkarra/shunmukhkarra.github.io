@@ -1,0 +1,203 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#E6F7FF;
+}
+
+hr{
+    width: 100%;
+    opacity: 0.2;
+}
+
+.sidebar{
+    background-color: #1c1b18;
+    width: 175px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    display: inline-flex;
+    border-radius: 20px;
+    transition: background-color 0.1s ease-in 0s, border-radius 0.1s ease-in 0s;
+}
+
+.nav-link:hover{
+    background-color: #73716c;
+    border-radius: 5px;
+}
+
+.home_main{
+    /* background-color: #777777; */
+    background-color: #1c1814;
+    background-image: url(Images/code.jpg);
+    background-size: contain;
+    opacity: 0.95;
+    height: 100vh;
+    position: relative;
+    left: 175px;
+    color: white;
+    width: calc(100% - 175px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+#home_main_text1{
+    margin: 0;
+    /* text-align: center; */
+    font-weight: 900;
+    font-size: 80px;
+}
+
+#home_main_text2{
+    text-decoration: line-through;
+    font-size:x-large;
+    color: #facfa5;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+#home_main_contact{
+    color: #00FFFF;
+    border: 2px solid #00FFFF;
+    border-radius: 5px;
+    font-size: 30px;
+    text-decoration: none;
+    position: relative;
+    top: 80px;
+    padding: 10px 20px 10px 20px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+#home_main_contact:hover{
+    color: #1D1D1D;
+    background-color: #00FFFF;
+}
+
+.aboutme{
+    position: relative;
+    left: 175px;
+    padding-bottom: 100px;
+    width: calc(100% - 255px);
+    font-family: "Heebo", sans-serif;
+}
+
+#aboutme_text1{
+    margin: 0;
+    padding: 120px 0 0 80px;
+    font-size: 36px;
+}
+
+#aboutme_text2{
+    padding-left: 80px;
+    color: #777777;
+    font-size: 18px;
+}
+
+#myskills_text1{
+    margin: 0;
+    padding: 80px 0 0 80px;
+    font-size: 36px;
+    display: inline-block;
+}
+
+#myskills_text2{
+    margin: 0;
+    padding-left: 135.685px;
+}
+
+.skills{
+    padding-left: 80px;
+}
+
+.skillset{
+    margin-top: 18px;
+    margin-right: 20px;
+    height: 50px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease 0s;
+}
+
+.skillset:hover{
+    filter: grayscale(0%);
+}
+
+#box_above_footer{
+    text-align: center;
+    text-decoration: none;
+    background-color: #141c3A;
+    color: white;
+    width: 400px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 50px;
+    position: relative;
+    top: 35px;
+    left: 525px;
+    z-index: 1;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+#box_above_footer:hover{
+    background-color: #1D3B72;
+    color: #88C0D0;
+}
+
+footer{
+    margin: 0;
+    padding: 120px 0 120px 0;
+    position: relative;
+    left: 175px;
+    width: calc(100% - 175px);
+    height: 130px;
+    background-color: black;
+    display: flex;
+}
+
+#footer_text1{
+    padding-left: 90px;
+    color: white;
+    width: 370px;
+    height: 130px;
+    font-size: 17px;
+    font-family: "Heebo", sans-serif;
+}
+
+#footer_text2{
+    position: absolute;
+    right: 50px;
+    color: white;
+    width: 140px;
+    height: 130px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Heebo", sans-serif;
+}
+
+.footer_media{
+    padding-top: 10px;
+    height: 30px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.footer_media:hover{
+    filter: grayscale(0%);
+}
